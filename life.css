@@ -1,0 +1,59 @@
+body {
+  padding: 20px;
+  background-color: #444;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#gridContainer {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  background-color: gray;
+  border-spacing: 1px;
+}
+
+td {
+  border: 1px solid rgb(90, 90, 90);
+  width: 20px;
+  height: 20px;
+}
+
+td.dead {
+  background-color: transparent;
+}
+
+td.live {
+  background-color: white;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #888;
+  color: white;
+}
+
+.controls p {
+  margin: 5px 0;
+}
